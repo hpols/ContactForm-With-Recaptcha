@@ -107,7 +107,7 @@ const App = () => {
            value={mailerState.message}
          />
           <ReCAPTCHA
-            sitekey={"6Ld5-eggAAAAAHk2RTvyTSE9lC9Du5YVX9j-cDLp"}
+            sitekey={process.env.REACT_APP_SITE_KEY}
             ref={captchaRef}
             />
          <button>Send Message</button>
