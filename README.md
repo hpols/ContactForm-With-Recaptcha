@@ -8,14 +8,14 @@ This example combines tutorials for using Nodemailer (Gmail) and Google Captcha 
 
 To use you will have to get the necessary keys and secrets for the APIs and store these along with your gmail-account login in your ```.env-file```. The constants for this are:
 
-* EMAIL = <Your Email>
-* WORD = <Your Password>
-* OAUTH_CLIENTID = <Your Gmail Client ID>
-* OAUTH_CLIENT_SECRET = < Your Gmail Client Secret>
-* OAUTH_REFRESH_TOKEN = <Your Gmail Refresh Token>
-* REACT_APP_SECRET_KEY = <Recaptcha security key>
-* REACT_APP_SITE_KEY = <Recaptcha site key>
-* REACT_APP_API_URL = <URL of local host with port number and '/post' appended>
-* SERVER_PORT = <Pprt Number you are using>
+* EMAIL = _Your Email_
+* WORD = _Your Password_
+* OAUTH_CLIENTID = _Your Gmail Client ID_
+* OAUTH_CLIENT_SECRET = _Your Gmail Client Secret_
+* OAUTH_REFRESH_TOKEN = _Your Gmail Refresh Token_
+* REACT_APP_SECRET_KEY = _Recaptcha security key_
+* REACT_APP_SITE_KEY = _Recaptcha site key_
+* REACT_APP_API_URL = _URL of local host with port number and '/post' appended_
+* SERVER_PORT = _Port Number you are using_
 
 With all that in place you can call ```npm start``` on both the root folder and the "nodemailer-form"-folder.
