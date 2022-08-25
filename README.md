@@ -18,4 +18,4 @@ To use you will have to get the necessary keys and secrets for the APIs and stor
 * REACT_APP_API_URL = _URL of local host with port number and '/post' appended_
 * SERVER_PORT = _Port Number you are using_
 
-With all that in place you can call ```npm start``` on both the root folder and the "nodemailer-form"-folder.
+With all that in place you can call ```npm install``` on both the root folder and the "nodemailer-form"-folder. After that you can ```npm start``` both.
